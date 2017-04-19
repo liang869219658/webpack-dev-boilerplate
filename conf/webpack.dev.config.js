@@ -7,6 +7,7 @@ var HtmlWebpackPlugin = require('html-webpack-plugin');
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
 var BrowserSyncPlugin = require('browser-sync-webpack-plugin');
 
+
 var rootPath = config.commonPath.rootPath;     // 项目根目录
 var srcPath = config.commonPath.srcPath;             // 开发源码目录
 var publicPath = config.commonPath.public;
@@ -81,5 +82,9 @@ config.plugins.push(
     reload: false
   })
 );
+
+
+
+
 
 module.exports = config;
